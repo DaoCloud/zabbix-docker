@@ -35,6 +35,8 @@ RUN locale-gen $LC_ALL && \
     apt-get ${APT_FLAGS_PERSISTANT} install \
             supervisor \
             mysql-client \
+            snmp \
+            snmpd \
             libmysqlclient18 \
             libiksemel3 \
             libsnmp30 \
